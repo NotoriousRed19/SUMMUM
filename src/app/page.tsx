@@ -1,10 +1,11 @@
+import dynamic from "next/dynamic";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Vision from "@/components/Vision";
-import Products from "@/components/Products";
-import Services from "@/components/Services";
-import Footer from "@/components/Footer";
-import RegistrationModal from "@/components/RegistrationModal";
+
+const About = dynamic(() => import("@/components/About"), { ssr: false });
+const Products = dynamic(() => import("@/components/Products"), { ssr: false });
+const Services = dynamic(() => import("@/components/Services"), { ssr: false });
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
+const RegistrationModal = dynamic(() => import("@/components/RegistrationModal"), { ssr: false });
 
 export default function Home() {
   return (
