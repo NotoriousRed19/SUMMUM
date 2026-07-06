@@ -72,7 +72,7 @@ export default function About() {
             >
               <button 
                 onClick={() => setIsVisionOpen(true)}
-                className="px-8 py-3 border border-gold/50 text-gold text-[10px] md:text-xs uppercase tracking-[0.2em] hover:bg-gold/10 hover:border-gold transition-all duration-300"
+                className="px-8 py-3 border border-gold/30 text-gold text-xs uppercase tracking-[0.2em] hover:bg-gold/10 transition-colors rounded-md"
               >
                 Nuestra Visión
               </button>
@@ -99,7 +99,7 @@ export default function About() {
             >
               <button 
                 onClick={() => setIsObjectiveOpen(true)}
-                className="px-8 py-3 border border-gold/50 text-gold text-[10px] md:text-xs uppercase tracking-[0.2em] hover:bg-gold/10 hover:border-gold transition-all duration-300"
+                className="px-8 py-3 border border-gold/30 text-gold text-xs uppercase tracking-[0.2em] hover:bg-gold/10 transition-colors rounded-md"
               >
                 Nuestro Objetivo
               </button>

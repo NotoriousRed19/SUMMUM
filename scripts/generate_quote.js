@@ -86,10 +86,10 @@ const path = require('path');
             font-weight: 400;
           }
           .item-desc {
-            font-size: 12px; 
-            color: #888;
-            line-height: 1.5;
-            max-width: 85%;
+            font-size: 14px; 
+            color: #aaaaaa;
+            line-height: 1.6;
+            max-width: 90%;
           }
           .total-row td { 
             padding-top: 30px;
@@ -108,14 +108,14 @@ const path = require('path');
           }
           .footer { 
             margin-top: 80px; 
-            font-size: 11px; 
-            color: #666; 
+            font-size: 12.5px; 
+            color: #888888; 
             line-height: 1.8;
             border-top: 1px solid rgba(255,255,255,0.1);
             padding-top: 30px;
           }
           .footer strong {
-            color: #888;
+            color: #aaaaaa;
             font-weight: 600;
           }
         </style>
@@ -189,6 +189,25 @@ const path = require('path');
             <li style="margin-bottom: 5px;">Esta cotización ya incluye los gastos de infraestructura, dominio y hosting por el primer año. A partir del segundo año, la renovación de estos servicios correrá a cargo del cliente para mantener la web en línea.</li>
             <li style="margin-bottom: 5px;">En caso de que el cliente decida delegar en SantanaDev la responsabilidad de gestionar y pagar la renovación de hosting y dominio a partir del segundo año, esto conllevará un costo adicional por concepto de gestión técnica anual.</li>
             <li>Cualquier requerimiento de actualización de contenido, modificaciones de diseño o desarrollo de nuevas funcionalidades posterior a la entrega final, será cotizado de forma independiente como un costo adicional (tarifa por hora o por requerimiento).</li>
+          </ul>
+        </div>
+        
+        <div style="page-break-before: always;"></div>
+        
+        <div class="title-section" style="margin-top: 20px;">
+          <div class="title" style="color: #9e7f41; font-family: 'Playfair Display', serif; font-size: 24px;">Desglose Estructural del Proyecto</div>
+          <div class="item-desc" style="margin-top: 10px; font-size: 14px; max-width: 100%;">El desarrollo Frontend Premium comprende la creación, diseño e integración de las siguientes secciones principales para la página web:</div>
+        </div>
+        
+        <div style="margin-top: 20px;">
+          <ul style="color: #aaaaaa; font-size: 14px; line-height: 1.6; padding-left: 20px;">
+            <li style="margin-bottom: 10px;"><strong style="color: #fff;">Hero Section:</strong> Portada de alto impacto visual con diseño inmersivo y llamado a la acción principal.</li>
+            <li style="margin-bottom: 10px;"><strong style="color: #fff;">Identidad (Quiénes Somos):</strong> Sección corporativa dinámica con ventanas modales elegantes para lectura de la Visión y Objetivos.</li>
+            <li style="margin-bottom: 10px;"><strong style="color: #fff;">Despensa (Productos):</strong> Carrusel interactivo automatizado de alta fluidez exhibiendo el catálogo fotográfico de productos.</li>
+            <li style="margin-bottom: 10px;"><strong style="color: #fff;">Experiencias (Servicios):</strong> Presentación de la vertical de eventos y catering con efectos interactivos y cinemáticos de vanguardia.</li>
+            <li style="margin-bottom: 10px;"><strong style="color: #fff;">Galería Visual:</strong> Exhibición fotográfica inmersiva de eventos, instalaciones y platillos de alta gastronomía.</li>
+            <li style="margin-bottom: 10px;"><strong style="color: #fff;">Sistema de Registro:</strong> Formulario modal inteligente e interactivo enfocado en la captación de leads y potenciales clientes.</li>
+            <li><strong style="color: #fff;">Footer Profesional:</strong> Cierre institucional y canal de contacto directo exclusivo vía Instagram.</li>
           </ul>
         </div>
       </body>

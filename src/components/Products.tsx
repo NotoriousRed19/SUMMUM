@@ -87,13 +87,9 @@ export default function Products() {
           transition={{ duration: 1, delay: 0.2 }}
           className="mt-16 md:mt-24 flex justify-center relative z-10"
         >
-          <a 
-            href="https://wa.me/1234567890?text=Hola,%20me%20gustaría%20solicitar%20el%20menú%20completo%20de%20Summum%20y%20recibir%20recomendaciones." 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            <button className="px-10 py-4 border border-gold text-gold font-light tracking-[0.25em] uppercase hover:bg-gold/10 hover:shadow-[0_0_20px_rgba(158,127,65,0.2)] transition-all duration-500 text-xs">
-              Ver menú completo
+          <a href="https://wa.me/584246270071?text=Hola,%20vengo%20de%20su%20página%20web%20y%20me%20gustaría%20ver%20el%20menú%20para%20obtener%20más%20información%20sobre%20sus%20productos." target="_blank" rel="noopener noreferrer">
+            <button className="px-10 py-4 border border-gold text-gold font-light tracking-[0.25em] uppercase hover:bg-gold/10 hover:shadow-[0_0_20px_rgba(158,127,65,0.2)] transition-all duration-500 text-xs rounded-md">
+              Ver Menú
             </button>
           </a>
         </motion.div>

@@ -89,7 +89,7 @@ export default function Services() {
             }}
             className="mt-12 md:mt-16 flex justify-start w-full"
           >
-            <button className="w-full sm:w-auto px-8 md:px-10 py-4 border border-gold text-gold font-light tracking-[0.25em] uppercase hover:bg-gold/10 hover:shadow-[0_0_20px_rgba(158,127,65,0.2)] transition-all duration-500 text-[10px] md:text-xs">
+            <button className="w-full sm:w-auto px-8 md:px-10 py-4 border border-gold text-gold font-light tracking-[0.25em] uppercase hover:bg-gold/10 hover:shadow-[0_0_20px_rgba(158,127,65,0.2)] transition-all duration-500 text-[10px] md:text-xs rounded-md">
               Solicitar Cotización
             </button>
           </motion.div>

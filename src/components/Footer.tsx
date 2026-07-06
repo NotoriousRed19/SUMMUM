@@ -9,10 +9,24 @@ export default function Footer() {
           <p className="text-foreground/50 text-xs tracking-widest uppercase mt-3">Dark Kitchen & Catering</p>
         </div>
         
-        <div className="flex flex-wrap justify-center gap-8 md:gap-12">
-          <a href="#" className="text-foreground/70 hover:text-gold transition-colors text-xs uppercase tracking-widest">Contacto Directo</a>
-          <a href="#" className="text-foreground/70 hover:text-gold transition-colors text-xs uppercase tracking-widest">WhatsApp</a>
-          <a href="#" className="text-foreground/70 hover:text-gold transition-colors text-xs uppercase tracking-widest">Instagram</a>
+        <div className="flex items-center">
+          <a href="#" className="text-foreground/50 hover:text-gold transition-colors duration-300" aria-label="Instagram Summum">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+            </svg>
+          </a>
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-light/10 text-center">

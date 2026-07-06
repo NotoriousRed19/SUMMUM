@@ -22,7 +22,7 @@ export default function RegistrationModal() {
       <div className="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-50">
         <button 
           onClick={() => setIsOpen(true)}
-          className="px-4 py-3 md:px-6 md:py-4 bg-gold text-background text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold hover:bg-gold-light shadow-[0_0_20px_rgba(197,160,89,0.3)] hover:shadow-[0_0_30px_rgba(197,160,89,0.5)] transition-all duration-300"
+          className="btn-fog px-4 py-3 md:px-6 md:py-4 border border-gold/30 text-gold text-[10px] md:text-xs uppercase tracking-[0.2em] font-light hover:bg-gold/10 hover:border-gold transition-all duration-500 rounded-md"
         >
           Acceso Exclusivo
         </button>
@@ -66,8 +66,7 @@ export default function RegistrationModal() {
                   <input required type="text" placeholder="Cédula de Identidad" className="w-full bg-background border border-gray-light px-4 py-3 text-sm focus:outline-none focus:border-gold text-foreground transition-colors" onChange={e => setFormData({...formData, cedula: e.target.value})} />
                   <input required type="email" placeholder="Correo Electrónico" className="w-full bg-background border border-gray-light px-4 py-3 text-sm focus:outline-none focus:border-gold text-foreground transition-colors" onChange={e => setFormData({...formData, email: e.target.value})} />
                   <input required type="tel" placeholder="Teléfono" className="w-full bg-background border border-gray-light px-4 py-3 text-sm focus:outline-none focus:border-gold text-foreground transition-colors" onChange={e => setFormData({...formData, phone: e.target.value})} />
-                  
-                  <button type="submit" className="w-full py-4 mt-6 bg-gold text-background font-medium tracking-[0.2em] uppercase hover:bg-gold-light transition-colors text-[10px] md:text-sm">
+                  <button type="submit" className="w-full py-4 mt-6 bg-gold text-background font-medium tracking-[0.2em] uppercase hover:bg-gold-light transition-colors text-[10px] md:text-sm rounded-md">
                     Generar Mi Código
                   </button>
                 </form>
@@ -81,7 +80,7 @@ export default function RegistrationModal() {
                   <div className="inline-block border border-gold border-dashed p-6 bg-gold/5 mb-8">
                     <span className="text-3xl font-serif text-gold-light tracking-widest">{generatedCode}</span>
                   </div>
-                  <button onClick={() => setIsOpen(false)} className="w-full py-4 border border-gold/50 text-gold font-medium tracking-[0.2em] uppercase hover:bg-gold/10 transition-colors text-sm">
+                  <button onClick={() => setIsOpen(false)} className="w-full py-4 border border-gold/50 text-gold font-medium tracking-[0.2em] uppercase hover:bg-gold/10 transition-colors text-sm rounded-md">
                     Cerrar Panel
                   </button>
                 </motion.div>

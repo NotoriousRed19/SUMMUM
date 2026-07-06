@@ -54,12 +54,12 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full sm:w-auto px-4 sm:px-0"
         >
           <a href="#despensa" className="w-full sm:w-auto">
-            <button className="w-full px-8 sm:px-12 py-4 bg-gold text-background font-medium tracking-[0.25em] uppercase hover:bg-gold-light transition-all duration-500 text-[10px] sm:text-xs shadow-[0_0_15px_rgba(158,127,65,0.15)] hover:shadow-[0_0_25px_rgba(193,164,105,0.3)] hover:-translate-y-1">
+            <button className="btn-fog w-full px-8 sm:px-12 py-4 bg-gold text-background font-medium tracking-[0.25em] uppercase hover:bg-gold-light transition-all duration-500 text-[10px] sm:text-xs shadow-[0_0_15px_rgba(158,127,65,0.15)] hover:shadow-[0_0_25px_rgba(193,164,105,0.3)] hover:-translate-y-1 rounded-md">
               Nuestros Productos
             </button>
           </a>
           <a href="#servicios" className="w-full sm:w-auto">
-            <button className="w-full px-8 sm:px-12 py-4 border border-gold/30 text-gold font-light tracking-[0.25em] uppercase hover:bg-gold/10 hover:border-gold transition-all duration-500 text-[10px] sm:text-xs hover:-translate-y-1">
+            <button className="btn-fog w-full px-8 sm:px-12 py-4 border border-gold/30 text-gold font-light tracking-[0.25em] uppercase hover:bg-gold/10 hover:border-gold transition-all duration-500 text-[10px] sm:text-xs hover:-translate-y-1 rounded-md">
               Catering
             </button>
           </a>
