@@ -11,7 +11,6 @@ export default function Home() {
     <main className="flex flex-col w-full min-h-screen bg-background">
       <Hero />
       <About />
-      <Vision />
       <Products />
       <Services />
       <Footer />

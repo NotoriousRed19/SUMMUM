@@ -2,7 +2,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 
-export default function Vision({ isOpen, onClose }: { isOpen: boolean, onClose: () => void }) {
+export default function Objective({ isOpen, onClose }: { isOpen: boolean, onClose: () => void }) {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -28,12 +28,12 @@ export default function Vision({ isOpen, onClose }: { isOpen: boolean, onClose: 
             </button>
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="h-[1px] w-8 bg-gold"></div>
-              <h2 className="text-[10px] md:text-xs text-gold tracking-[0.4em] uppercase font-semibold">Nuestra Visión</h2>
+              <h2 className="text-[10px] md:text-xs text-gold tracking-[0.4em] uppercase font-semibold">Nuestro Objetivo</h2>
               <div className="h-[1px] w-8 bg-gold"></div>
             </div>
             
             <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif text-foreground mb-10 leading-relaxed font-light">
-              "Redefinir la intimidad del buen comer, llevando la precisión y elegancia del fine dining directamente a la esencia de lo privado."
+              "Llevar la artesanía culinaria a su máxima expresión, transformando el concepto de la cocina oculta en una experiencia de fine dining accesible y memorable."
             </h3>
             
             <p className="text-foreground/60 uppercase tracking-[0.1em] md:tracking-[0.2em] text-[10px] md:text-sm">
