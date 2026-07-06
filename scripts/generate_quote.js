@@ -126,7 +126,7 @@ const path = require('path');
           <p>Propuesta de Desarrollo Web & Infraestructura</p>
         </div>
         
-        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 20px;">
           <div>
             <div class="title" style="margin-bottom: 10px;">Cotización de Proyecto</div>
             <div class="date">Fecha: ${new Date().toLocaleDateString('es-ES')}</div>
@@ -137,6 +137,12 @@ const path = require('path');
             <div>LopezMauricioDev@gmail.com</div>
             <div>+58 424-6270071</div>
           </div>
+        </div>
+
+        <div style="background: rgba(158,127,65,0.05); border: 1px solid rgba(158,127,65,0.2); border-radius: 6px; padding: 16px 20px; margin-bottom: 30px;">
+          <div style="font-size: 11px; color: #9e7f41; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Tipo de Proyecto</div>
+          <div style="font-size: 15px; color: #ffffff; font-weight: 400; margin-bottom: 4px;">Sitio Web Corporativo — Landing Page Premium</div>
+          <div style="font-size: 12px; color: #aaaaaa; line-height: 1.5;">Página web de una sola pantalla (One Page) para marca gastronómica de alto posicionamiento. Construida con <strong style="color: #ccc;">Next.js 16</strong>, animaciones avanzadas con <strong style="color: #ccc;">Framer Motion</strong> y base de datos en la nube con <strong style="color: #ccc;">Supabase</strong>. Diseño exclusivo, 100% a medida y responsivo.</div>
         </div>
         
         <table>
@@ -156,8 +162,8 @@ const path = require('path');
             </tr>
             <tr>
               <td>
-                <div class="item-title">Desarrollo Backend & Base de Datos</div>
-                <div class="item-desc">Integración de arquitectura de datos escalable (Supabase). Creación de esquemas relacionales, conexión de formularios de registro dinámicos en tiempo real y panel base seguro para la captación, almacenamiento y gestión de clientes y prospectos.</div>
+                <div class="item-title">Backend, Panel Administrativo & Correos Automáticos</div>
+                <div class="item-desc">Arquitectura de datos escalable con <strong>Supabase</strong>. Desarrollo de un <strong>Panel Administrativo Privado</strong> para filtrar y gestionar la base de clientes. Incluye motor de generación de códigos de acceso exclusivos y sistema avanzado de mensajería automatizada (<strong>Nodemailer + Google SMTP</strong>) para el envío automático de códigos por email y correos personalizados directamente desde el panel.</div>
               </td>
               <td class="amount">$ 140.00</td>
             </tr>
@@ -207,6 +213,7 @@ const path = require('path');
             <li style="margin-bottom: 10px;"><strong style="color: #fff;">Experiencias (Servicios):</strong> Presentación de la vertical de eventos y catering con efectos interactivos y cinemáticos de vanguardia.</li>
             <li style="margin-bottom: 10px;"><strong style="color: #fff;">Galería Visual:</strong> Exhibición fotográfica inmersiva de eventos, instalaciones y platillos de alta gastronomía.</li>
             <li style="margin-bottom: 10px;"><strong style="color: #fff;">Sistema de Registro:</strong> Formulario modal inteligente e interactivo enfocado en la captación de leads y potenciales clientes.</li>
+            <li style="margin-bottom: 10px;"><strong style="color: #fff;">Panel Administrativo Privado:</strong> Dashboard interno conectado a base de datos para visualizar y filtrar clientes registrados, con integración de mensajería (Nodemailer) para enviar códigos y correos personalizados.</li>
             <li><strong style="color: #fff;">Footer Profesional:</strong> Cierre institucional y canal de contacto directo exclusivo vía Instagram.</li>
           </ul>
         </div>
