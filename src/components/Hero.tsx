@@ -1,6 +1,7 @@
 "use client";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 
 export default function Hero() {
   const ref = useRef(null);
@@ -15,12 +16,20 @@ export default function Hero() {
 
   return (
     <section ref={ref} className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-background">
-      {/* Background Image Overlay with Parallax */}
+      {/* Background Image with Parallax - Optimized via next/image */}
       <motion.div 
         className="absolute inset-0 z-0 origin-top"
         style={{ y: backgroundY, willChange: "transform" }}
       >
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1615486171439-019d5fc831dc?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-[0.15] scale-110" />
+        <Image
+          src="https://images.unsplash.com/photo-1615486171439-019d5fc831dc?q=80&w=2000&auto=format&fit=crop"
+          alt=""
+          fill
+          priority
+          fetchPriority="high"
+          sizes="100vw"
+          className="object-cover object-center opacity-[0.15] scale-110"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/90 to-background" />
       </motion.div>
 
